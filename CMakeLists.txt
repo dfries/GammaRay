@@ -28,8 +28,9 @@
 
 project(GammaRay)
 
-cmake_minimum_required(VERSION 2.8.11)
-cmake_policy(SET CMP0020 NEW)
+#cmake_minimum_required(VERSION 2.8.11)
+cmake_minimum_required(VERSION 2.8.9)
+#cmake_policy(SET CMP0020 NEW)
 
 set(CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake/ ${CMAKE_MODULE_PATH})
 set(CMAKE_AUTOMOC ON)
